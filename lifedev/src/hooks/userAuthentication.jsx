@@ -31,7 +31,7 @@ export const userAuthentication = () =>{
             const { user } = await createUserWithEmailAndPassword(
                 auth,
                 data.email,
-                data.password
+                data.senha
             )
 
             await updateProfile(user, {

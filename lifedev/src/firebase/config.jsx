@@ -3,13 +3,13 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB2AWPVq95_j6v3_ScpMaoIwDvFej2RjmE",
-  authDomain: "lifedev-prof.firebaseapp.com",
-  projectId: "lifedev-prof",
-  storageBucket: "lifedev-prof.appspot.com",
-  messagingSenderId: "616028756636",
-  appId: "1:616028756636:web:e4dfb0835dd4af800a2b59",
-  measurementId: "G-2TMMM1DM2N"
+  apiKey: "AIzaSyDNFkjAIy1zpNSrfNnuI2H_5Lod2kVWEYE",
+  authDomain: "lifedev-kamycampi.firebaseapp.com",
+  projectId: "lifedev-kamycampi",
+  storageBucket: "lifedev-kamycampi.appspot.com",
+  messagingSenderId: "58536192374",
+  appId: "1:58536192374:web:03b787d6b10466dd9f7257",
+  measurementId: "G-ZV0PFJGC7S"
 };
 
 const app = initializeApp(firebaseConfig);

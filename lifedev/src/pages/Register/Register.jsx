@@ -82,7 +82,10 @@ useEffect(() => {
           placeholder="Confirme sua senha" 
           />
         </label>
-        <button className='btn'>Cadastrar</button>
+
+        {!loading && <button className='btn'> Cadastrar </button>}
+        {loading && <button className='btn'> Aguarde </button>}
+        {error && <p className='error'>{error}</p>}
       </form>
     </div>
   )
